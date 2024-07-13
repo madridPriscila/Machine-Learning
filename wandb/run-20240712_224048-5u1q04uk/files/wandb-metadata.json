@@ -1,0 +1,45 @@
+{
+    "os": "Darwin-23.5.0-x86_64-i386-64bit",
+    "python": "3.7.16",
+    "heartbeatAt": "2024-07-13T02:40:48.801011",
+    "startedAt": "2024-07-13T02:40:48.359318",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Handwritten_nums.py",
+    "codePathLocal": "Handwritten_nums.py",
+    "codePath": "Handwritten_nums.py",
+    "git": {
+        "remote": "https://github.com/madridPriscila/Machine-Learning.git",
+        "commit": "574cd2fad2574179d3431ca366653348c48df942"
+    },
+    "email": null,
+    "root": "/Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15",
+    "host": "Priscilas-MacBook-Pro.local",
+    "username": "priscila",
+    "executable": "/opt/anaconda3/envs/pytorch/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1400,
+        "min": 1400,
+        "max": 1400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1400,
+            "min": 1400,
+            "max": 1400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 112.70698928833008,
+            "used": 9.553749084472656
+        }
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

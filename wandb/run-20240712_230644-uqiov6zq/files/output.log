@@ -1,0 +1,14 @@
+
+Loading the pre-trained model...
+Filename: img_1.jpg
+Prediction: 2
+Mean Squared Error (MSE): 0.0
+Structural Similarity Index (SSIM): 1.0
+Filename: img_2.jpg
+Prediction: 0
+Mean Squared Error (MSE): 0.0
+Structural Similarity Index (SSIM): 1.0
+Filename: img_3.jpg
+Prediction: 9
+Mean Squared Error (MSE): 0.0
+Structural Similarity Index (SSIM): 1.0

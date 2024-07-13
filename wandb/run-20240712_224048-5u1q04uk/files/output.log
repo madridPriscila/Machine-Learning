@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "Handwritten_nums.py", line 47, in <module>
+    with open('model_state.pt', 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model_state.pt'

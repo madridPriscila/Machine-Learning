@@ -1,0 +1,24 @@
+
+Model not found. Training the model...
+Epoch:0 loss is 0.05485430359840393
+Epoch:1 loss is 0.015700554475188255
+Epoch:2 loss is 0.0017443259712308645
+Epoch:3 loss is 0.0009679417125880718
+Epoch:4 loss is 3.6135284631200193e-07
+Epoch:5 loss is 2.4147870135493577e-05
+Epoch:6 loss is 1.6093030353658833e-05
+Epoch:7 loss is 2.129466156475246e-05
+Epoch:8 loss is 2.898208094848087e-06
+Epoch:9 loss is 0.000747756683267653
+Filename: img_1.jpg
+Prediction: 2
+Mean Squared Error (MSE): 0.0
+Structural Similarity Index (SSIM): 1.0
+Filename: img_2.jpg
+Prediction: 0
+Mean Squared Error (MSE): 0.0
+Structural Similarity Index (SSIM): 1.0
+Filename: img_3.jpg
+Prediction: 9
+Mean Squared Error (MSE): 0.0
+Structural Similarity Index (SSIM): 1.0

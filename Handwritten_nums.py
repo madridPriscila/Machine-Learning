@@ -1,4 +1,4 @@
-# Import dependencies
+import os  # Import os for file and directory operations
 import torch 
 from PIL import Image
 from torch import nn, save, load
@@ -39,13 +39,38 @@ class ImageClassifier(nn.Module):
 # Instance of the neural network, loss, optimizer 
 clf = ImageClassifier()  # .to('cpu') by default
 opt = Adam(clf.parameters(), lr=1e-3)
-loss_fn = nn.CrossEntropyLoss() 
+loss_fn = nn.CrossEntropyLoss()
 
 # Training flow 
 if __name__ == "__main__": 
-    # Load the trained model state
-    with open('model_state.pt', 'rb') as f:
-        clf.load_state_dict(load(f))
+    # Check if model_state.pt exists
+    if os.path.exists('model_state.pt'):
+        # Load the trained model state
+        print("Loading the pre-trained model...")
+        with open('model_state.pt', 'rb') as f:
+            clf.load_state_dict(load(f))
+    else:
+        # Model does not exist, start training
+        print("Model not found. Training the model...")
+        opt = Adam(clf.parameters(), lr=1e-3)
+        loss_fn = nn.CrossEntropyLoss()
+
+        for epoch in range(10): # train for 10 epochs
+            for batch in dataset: 
+                X, y = batch 
+                X, y = X.to('cpu'), y.to('cpu')  # Adjusted to CPU if not using GPU
+                yhat = clf(X) 
+                loss = loss_fn(yhat, y) 
+
+                # Apply backprop 
+                opt.zero_grad()
+                loss.backward() 
+                opt.step() 
+
+            print(f"Epoch:{epoch} loss is {loss.item()}")
+
+        with open('model_state.pt', 'wb') as f: 
+            save(clf.state_dict(), f) 
 
     # List of image filenames
     image_filenames = ['img_1.jpg', 'img_2.jpg', 'img_3.jpg']
@@ -101,3 +126,5 @@ if __name__ == "__main__":
             "MSE": mse,
             "SSIM": ssim_index
         })
+
+#latest
