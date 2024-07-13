@@ -1,0 +1,45 @@
+{
+    "os": "Darwin-23.5.0-x86_64-i386-64bit",
+    "python": "3.7.16",
+    "heartbeatAt": "2024-07-13T01:27:01.163234",
+    "startedAt": "2024-07-13T01:27:00.676490",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "torchnn.py",
+    "codePathLocal": "torchnn.py",
+    "codePath": "torchnn.py",
+    "git": {
+        "remote": "https://github.com/nicknochnack/PyTorchin15.git",
+        "commit": "662896ece41c3dc377e30d6f32d10ca4fbfb0593"
+    },
+    "email": null,
+    "root": "/Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15",
+    "host": "Priscilas-MacBook-Pro.local",
+    "username": "priscila",
+    "executable": "/opt/anaconda3/envs/pytorch/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1400,
+        "min": 1400,
+        "max": 1400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1400,
+            "min": 1400,
+            "max": 1400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 112.70698928833008,
+            "used": 9.553749084472656
+        }
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

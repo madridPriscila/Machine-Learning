@@ -1,0 +1,223 @@
+2024-07-12 21:27:00,694 INFO    StreamThr :6574 [internal.py:wandb_internal():88] W&B internal server running at pid: 6574, started at: 2024-07-12 21:27:00.692937
+2024-07-12 21:27:00,696 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: status
+2024-07-12 21:27:00,703 INFO    WriterThread:6574 [datastore.py:open_for_write():87] open: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/run-7802qt6a.wandb
+2024-07-12 21:27:00,704 DEBUG   SenderThread:6574 [sender.py:send():379] send: header
+2024-07-12 21:27:00,752 DEBUG   SenderThread:6574 [sender.py:send():379] send: run
+2024-07-12 21:27:01,012 INFO    SenderThread:6574 [dir_watcher.py:__init__():211] watching files in: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files
+2024-07-12 21:27:01,013 INFO    SenderThread:6574 [sender.py:_start_run_threads():1191] run started: 7802qt6a with start time 1720834020.693843
+2024-07-12 21:27:01,031 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: check_version
+2024-07-12 21:27:01,032 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: check_version
+2024-07-12 21:27:01,159 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: run_start
+2024-07-12 21:27:01,160 DEBUG   HandlerThread:6574 [system_info.py:__init__():26] System info init
+2024-07-12 21:27:01,160 DEBUG   HandlerThread:6574 [system_info.py:__init__():41] System info init done
+2024-07-12 21:27:01,160 INFO    HandlerThread:6574 [system_monitor.py:start():194] Starting system monitor
+2024-07-12 21:27:01,161 INFO    SystemMonitor:6574 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-12 21:27:01,161 INFO    HandlerThread:6574 [system_monitor.py:probe():214] Collecting system info
+2024-07-12 21:27:01,162 INFO    SystemMonitor:6574 [interfaces.py:start():188] Started cpu monitoring
+2024-07-12 21:27:01,162 INFO    SystemMonitor:6574 [interfaces.py:start():188] Started disk monitoring
+2024-07-12 21:27:01,163 DEBUG   HandlerThread:6574 [system_info.py:probe():152] Probing system
+2024-07-12 21:27:01,163 INFO    SystemMonitor:6574 [interfaces.py:start():188] Started memory monitoring
+2024-07-12 21:27:01,166 INFO    SystemMonitor:6574 [interfaces.py:start():188] Started network monitoring
+2024-07-12 21:27:01,176 DEBUG   HandlerThread:6574 [system_info.py:_probe_git():137] Probing git
+2024-07-12 21:27:01,234 DEBUG   HandlerThread:6574 [system_info.py:_probe_git():145] Probing git done
+2024-07-12 21:27:01,234 DEBUG   HandlerThread:6574 [system_info.py:probe():200] Probing system done
+2024-07-12 21:27:01,234 DEBUG   HandlerThread:6574 [system_monitor.py:probe():223] {'os': 'Darwin-23.5.0-x86_64-i386-64bit', 'python': '3.7.16', 'heartbeatAt': '2024-07-13T01:27:01.163234', 'startedAt': '2024-07-13T01:27:00.676490', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'torchnn.py', 'codePathLocal': 'torchnn.py', 'codePath': 'torchnn.py', 'git': {'remote': 'https://github.com/nicknochnack/PyTorchin15.git', 'commit': '662896ece41c3dc377e30d6f32d10ca4fbfb0593'}, 'email': None, 'root': '/Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15', 'host': 'Priscilas-MacBook-Pro.local', 'username': 'priscila', 'executable': '/opt/anaconda3/envs/pytorch/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1400, 'min': 1400, 'max': 1400}, 'cpu_freq_per_core': [{'current': 1400, 'min': 1400, 'max': 1400}], 'disk': {'/': {'total': 112.70698928833008, 'used': 9.553749084472656}}, 'memory': {'total': 8.0}}
+2024-07-12 21:27:01,234 INFO    HandlerThread:6574 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-12 21:27:01,234 INFO    HandlerThread:6574 [system_monitor.py:probe():227] Publishing system info
+2024-07-12 21:27:01,234 DEBUG   HandlerThread:6574 [system_info.py:_save_conda():210] Saving list of conda packages installed into the current environment
+2024-07-12 21:27:02,020 INFO    Thread-12 :6574 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/conda-environment.yaml
+2024-07-12 21:27:04,022 INFO    Thread-12 :6574 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/conda-environment.yaml
+2024-07-12 21:27:04,202 DEBUG   HandlerThread:6574 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-12 21:27:04,204 INFO    HandlerThread:6574 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-12 21:27:04,216 DEBUG   SenderThread:6574 [sender.py:send():379] send: files
+2024-07-12 21:27:04,217 INFO    SenderThread:6574 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-12 21:27:04,344 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-12 21:27:04,345 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: python_packages
+2024-07-12 21:27:04,346 DEBUG   SenderThread:6574 [sender.py:send():379] send: telemetry
+2024-07-12 21:27:04,348 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-12 21:27:04,348 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:04,348 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: stop_status
+2024-07-12 21:27:04,557 INFO    wandb-upload_0:6574 [upload_job.py:push():130] Uploaded file /var/folders/_z/prljjpf549z0nvmywcp28b740000gn/T/tmp_tk0xks_wandb/axtunbnz-wandb-metadata.json
+2024-07-12 21:27:05,027 INFO    Thread-12 :6574 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/wandb-metadata.json
+2024-07-12 21:27:05,027 INFO    Thread-12 :6574 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/requirements.txt
+2024-07-12 21:27:05,350 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:06,355 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:06,493 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: status_report
+2024-07-12 21:27:07,358 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:08,361 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:08,897 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-12 21:27:08,898 DEBUG   SenderThread:6574 [sender.py:send():379] send: history
+2024-07-12 21:27:08,898 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: summary_record
+2024-07-12 21:27:08,900 INFO    SenderThread:6574 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-12 21:27:09,033 INFO    Thread-12 :6574 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/output.log
+2024-07-12 21:27:09,033 INFO    Thread-12 :6574 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/wandb-summary.json
+2024-07-12 21:27:09,362 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:10,366 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:11,042 INFO    Thread-12 :6574 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/output.log
+2024-07-12 21:27:11,371 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:12,357 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: status_report
+2024-07-12 21:27:12,373 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:13,376 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:14,380 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:15,384 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:16,274 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-12 21:27:16,275 DEBUG   SenderThread:6574 [sender.py:send():379] send: history
+2024-07-12 21:27:16,276 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: summary_record
+2024-07-12 21:27:16,277 INFO    SenderThread:6574 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-12 21:27:16,386 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:17,064 INFO    Thread-12 :6574 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/output.log
+2024-07-12 21:27:17,066 INFO    Thread-12 :6574 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/wandb-summary.json
+2024-07-12 21:27:17,388 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:18,280 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: status_report
+2024-07-12 21:27:18,390 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:19,347 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-12 21:27:19,348 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: stop_status
+2024-07-12 21:27:19,393 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:20,397 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:21,401 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:22,100 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-12 21:27:22,102 DEBUG   SenderThread:6574 [sender.py:send():379] send: history
+2024-07-12 21:27:22,102 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: summary_record
+2024-07-12 21:27:22,103 INFO    SenderThread:6574 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-12 21:27:22,104 DEBUG   SenderThread:6574 [sender.py:send():379] send: exit
+2024-07-12 21:27:22,105 INFO    SenderThread:6574 [sender.py:send_exit():586] handling exit code: 0
+2024-07-12 21:27:22,105 INFO    SenderThread:6574 [sender.py:send_exit():588] handling runtime: 20
+2024-07-12 21:27:22,106 INFO    SenderThread:6574 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-12 21:27:22,106 INFO    SenderThread:6574 [sender.py:send_exit():594] send defer
+2024-07-12 21:27:22,106 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:22,106 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-12 21:27:22,107 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:22,107 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-12 21:27:22,107 INFO    SenderThread:6574 [sender.py:transition_state():614] send defer: 1
+2024-07-12 21:27:22,107 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:22,107 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-12 21:27:22,107 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:22,107 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-12 21:27:22,107 INFO    SenderThread:6574 [sender.py:transition_state():614] send defer: 2
+2024-07-12 21:27:22,107 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:22,107 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-12 21:27:22,107 INFO    HandlerThread:6574 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-12 21:27:22,108 INFO    HandlerThread:6574 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-12 21:27:22,108 DEBUG   SystemMonitor:6574 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-12 21:27:22,108 INFO    HandlerThread:6574 [interfaces.py:finish():200] Joined disk monitor
+2024-07-12 21:27:22,108 DEBUG   SystemMonitor:6574 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-12 21:27:22,109 DEBUG   SystemMonitor:6574 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-12 21:27:22,108 INFO    HandlerThread:6574 [interfaces.py:finish():200] Joined memory monitor
+2024-07-12 21:27:22,109 INFO    HandlerThread:6574 [interfaces.py:finish():200] Joined network monitor
+2024-07-12 21:27:22,110 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:22,110 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-12 21:27:22,110 INFO    SenderThread:6574 [sender.py:transition_state():614] send defer: 3
+2024-07-12 21:27:22,110 DEBUG   SenderThread:6574 [sender.py:send():379] send: stats
+2024-07-12 21:27:22,110 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:22,110 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-12 21:27:22,111 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:22,111 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-12 21:27:22,111 INFO    SenderThread:6574 [sender.py:transition_state():614] send defer: 4
+2024-07-12 21:27:22,111 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:22,111 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-12 21:27:22,111 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:22,111 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-12 21:27:22,111 INFO    SenderThread:6574 [sender.py:transition_state():614] send defer: 5
+2024-07-12 21:27:22,111 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:22,111 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-12 21:27:22,111 DEBUG   SenderThread:6574 [sender.py:send():379] send: summary
+2024-07-12 21:27:22,112 INFO    SenderThread:6574 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-12 21:27:22,112 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:22,112 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-12 21:27:22,112 INFO    SenderThread:6574 [sender.py:transition_state():614] send defer: 6
+2024-07-12 21:27:22,112 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:22,112 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-12 21:27:22,112 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:22,113 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-12 21:27:22,116 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: status_report
+2024-07-12 21:27:22,189 INFO    SenderThread:6574 [sender.py:transition_state():614] send defer: 7
+2024-07-12 21:27:22,189 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:22,189 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-12 21:27:22,190 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:22,190 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-12 21:27:22,930 INFO    SenderThread:6574 [sender.py:transition_state():614] send defer: 8
+2024-07-12 21:27:22,930 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:22,930 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-12 21:27:22,931 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:22,931 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-12 21:27:22,931 INFO    SenderThread:6574 [job_builder.py:build():440] Attempting to build job artifact
+2024-07-12 21:27:22,933 INFO    SenderThread:6574 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-07-12 21:27:23,088 INFO    Thread-12 :6574 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/output.log
+2024-07-12 21:27:23,089 INFO    Thread-12 :6574 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/config.yaml
+2024-07-12 21:27:23,090 INFO    Thread-12 :6574 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/wandb-summary.json
+2024-07-12 21:27:23,105 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-12 21:27:23,120 INFO    SenderThread:6574 [job_builder.py:build():545] adding wandb-job metadata file
+2024-07-12 21:27:23,127 INFO    SenderThread:6574 [sender.py:transition_state():614] send defer: 9
+2024-07-12 21:27:23,127 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: poll_exit
+2024-07-12 21:27:23,128 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:23,128 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-12 21:27:23,129 DEBUG   SenderThread:6574 [sender.py:send():379] send: artifact
+2024-07-12 21:27:23,882 INFO    wandb-upload_1:6574 [upload_job.py:push():88] Uploaded file /Users/priscila/Library/Application Support/wandb/artifacts/staging/tmpfic7othh
+2024-07-12 21:27:23,940 INFO    wandb-upload_2:6574 [upload_job.py:push():88] Uploaded file /var/folders/_z/prljjpf549z0nvmywcp28b740000gn/T/tmp9rqzqfo8/wandb-job.json
+2024-07-12 21:27:24,106 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-12 21:27:24,481 INFO    SenderThread:6574 [sender.py:send_artifact():1530] sent artifact job-https___github.com_nicknochnack_PyTorchin15.git_torchnn.py - {'id': 'QXJ0aWZhY3Q6OTY0MzI2NDU0', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI1ODEyMjEwMg==', 'latestArtifact': None}}
+2024-07-12 21:27:24,482 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:24,482 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-12 21:27:24,482 INFO    SenderThread:6574 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-12 21:27:25,093 INFO    SenderThread:6574 [dir_watcher.py:finish():388] scan: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files
+2024-07-12 21:27:25,093 INFO    SenderThread:6574 [dir_watcher.py:finish():402] scan save: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/requirements.txt requirements.txt
+2024-07-12 21:27:25,094 INFO    SenderThread:6574 [dir_watcher.py:finish():402] scan save: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/output.log output.log
+2024-07-12 21:27:25,099 INFO    SenderThread:6574 [dir_watcher.py:finish():402] scan save: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/config.yaml config.yaml
+2024-07-12 21:27:25,103 INFO    SenderThread:6574 [dir_watcher.py:finish():402] scan save: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/wandb-summary.json wandb-summary.json
+2024-07-12 21:27:25,108 INFO    SenderThread:6574 [dir_watcher.py:finish():402] scan save: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/conda-environment.yaml conda-environment.yaml
+2024-07-12 21:27:25,109 INFO    SenderThread:6574 [dir_watcher.py:finish():402] scan save: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/wandb-metadata.json wandb-metadata.json
+2024-07-12 21:27:25,109 INFO    SenderThread:6574 [sender.py:transition_state():614] send defer: 10
+2024-07-12 21:27:25,109 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: poll_exit
+2024-07-12 21:27:25,110 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:25,117 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-12 21:27:25,118 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:25,118 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-12 21:27:25,118 INFO    SenderThread:6574 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-12 21:27:25,348 INFO    wandb-upload_4:6574 [upload_job.py:push():130] Uploaded file /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/output.log
+2024-07-12 21:27:25,418 INFO    wandb-upload_7:6574 [upload_job.py:push():130] Uploaded file /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/conda-environment.yaml
+2024-07-12 21:27:25,424 INFO    wandb-upload_6:6574 [upload_job.py:push():130] Uploaded file /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/wandb-summary.json
+2024-07-12 21:27:25,425 INFO    wandb-upload_2:6574 [upload_job.py:push():130] Uploaded file /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/config.yaml
+2024-07-12 21:27:25,452 INFO    wandb-upload_3:6574 [upload_job.py:push():130] Uploaded file /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/files/requirements.txt
+2024-07-12 21:27:25,655 INFO    Thread-11 :6574 [sender.py:transition_state():614] send defer: 11
+2024-07-12 21:27:25,656 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:25,656 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-12 21:27:25,657 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:25,657 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-12 21:27:25,658 INFO    SenderThread:6574 [file_pusher.py:join():175] waiting for file pusher
+2024-07-12 21:27:25,659 INFO    SenderThread:6574 [sender.py:transition_state():614] send defer: 12
+2024-07-12 21:27:25,659 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:25,659 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-12 21:27:25,660 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:25,660 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-12 21:27:25,660 INFO    SenderThread:6574 [file_stream.py:finish():601] file stream finish called
+2024-07-12 21:27:25,741 INFO    SenderThread:6574 [file_stream.py:finish():605] file stream finish is done
+2024-07-12 21:27:25,741 INFO    SenderThread:6574 [sender.py:transition_state():614] send defer: 13
+2024-07-12 21:27:25,741 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:25,742 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-12 21:27:25,742 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:25,742 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-12 21:27:25,743 INFO    SenderThread:6574 [sender.py:transition_state():614] send defer: 14
+2024-07-12 21:27:25,743 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: defer
+2024-07-12 21:27:25,743 INFO    HandlerThread:6574 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-12 21:27:25,744 DEBUG   SenderThread:6574 [sender.py:send():379] send: final
+2024-07-12 21:27:25,744 DEBUG   SenderThread:6574 [sender.py:send():379] send: footer
+2024-07-12 21:27:25,745 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: defer
+2024-07-12 21:27:25,745 INFO    SenderThread:6574 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-12 21:27:25,746 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-12 21:27:25,747 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: poll_exit
+2024-07-12 21:27:25,748 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: server_info
+2024-07-12 21:27:25,749 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: server_info
+2024-07-12 21:27:25,753 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-12 21:27:25,755 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-12 21:27:25,757 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-12 21:27:25,758 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-12 21:27:25,809 DEBUG   SenderThread:6574 [sender.py:send_request():406] send_request: poll_exit
+2024-07-12 21:27:25,810 INFO    MainThread:6574 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-07-12 21:27:25,810 INFO    MainThread:6574 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-07-12 21:27:25,811 INFO    MainThread:6574 [wandb_run.py:_footer_sync_info():3950] logging synced files
+2024-07-12 21:27:25,812 DEBUG   HandlerThread:6574 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-12 21:27:25,812 INFO    HandlerThread:6574 [handler.py:finish():882] shutting down handler
+2024-07-12 21:27:26,759 INFO    WriterThread:6574 [datastore.py:close():296] close: /Users/priscila/Desktop/Machine_Learning/nn/PyTorchin15/wandb/run-20240712_212700-7802qt6a/run-7802qt6a.wandb
+2024-07-12 21:27:26,810 INFO    SenderThread:6574 [sender.py:finish():1608] shutting down sender
+2024-07-12 21:27:26,810 INFO    SenderThread:6574 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-12 21:27:26,810 INFO    SenderThread:6574 [file_pusher.py:join():175] waiting for file pusher
